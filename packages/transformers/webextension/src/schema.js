@@ -326,6 +326,13 @@ const commonProps = {
     additionalProperties: false,
     required: ['default_panel'],
   },
+  side_panel: {
+    type: 'object',
+    properties: {
+      default_path: string
+    },
+    additionalProperties: false,
+    required: ['default_path'],
   storage: {
     type: 'object',
     properties: {
